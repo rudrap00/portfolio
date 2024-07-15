@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.242ef332.css",
+    "main.js": "/portfolio/static/js/main.7a030f04.js",
+    "static/media/Currency Converter.png": "/portfolio/static/media/Currency Converter.2fc929330bd13570e96c.png",
+    "static/media/Food Order App.png": "/portfolio/static/media/Food Order App.7376b29b9e23b6f2af12.png",
+    "static/media/Jobs Board.png": "/portfolio/static/media/Jobs Board.c81bea1d960bda809a4b.png",
+    "static/media/Payments.png": "/portfolio/static/media/Payments.7f04e64f9469fe3cbc85.png",
+    "index.html": "/portfolio/index.html",
+    "main.242ef332.css.map": "/portfolio/static/css/main.242ef332.css.map",
+    "main.7a030f04.js.map": "/portfolio/static/js/main.7a030f04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.242ef332.css",
+    "static/js/main.7a030f04.js"
+  ]
+}
