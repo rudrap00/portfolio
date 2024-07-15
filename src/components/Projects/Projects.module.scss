@@ -1,0 +1,14 @@
+.projects {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
+  h2 {
+    background-image: linear-gradient(45deg, #9c77918e, #5e9da98e, #6c8e648e);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 4rem;
+    margin: 40px 0;
+  }
+}

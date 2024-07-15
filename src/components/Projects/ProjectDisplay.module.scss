@@ -1,0 +1,79 @@
+.project-display {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  .image-container {
+    width: 20rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-radius: 0.5rem;
+    }
+  }
+
+  .info-container {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h3 {
+      margin: 10px 0;
+      color: #007bff;
+    }
+
+    p {
+      width: auto;
+      margin: 10px 0;
+      cursor: default;
+    }
+
+    .buttons {
+      margin-top: 10px;
+
+      a {
+        display: inline-block;
+        margin: 10px 10px 10px 0;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        box-shadow: 4px 4px 8px #0000002f;
+        color: white;
+        text-decoration: none;
+        border-radius: 0.5rem;
+        transition: all ease 0.6s, box-shadow 0ms;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .project-display {
+    .info-container {
+      p {
+        width: 20rem;
+      }
+
+      .buttons {
+        a:hover {
+          scale: 1.2;
+          margin: 10px;
+          background-image: linear-gradient(
+            45deg,
+            #881562dd,
+            #02262eb0,
+            #121c10
+          );
+          background-clip: text;
+          color: transparent;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

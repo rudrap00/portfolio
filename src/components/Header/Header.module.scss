@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  min-height: 100dvh;
+  gap: 4rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2.5rem;
+
+  .title {
+    flex: 1;
+    min-width: fit-content;
+
+    .h1 {
+      width: fit-content;
+      font-size: 6rem;
+      font-weight: bold;
+      font-family: "Grape Nuts";
+      background-image: linear-gradient(
+        210deg,
+        #4e0731ad,
+        #320843ca,
+        #45220cb9
+      );
+
+      background-clip: text;
+      color: transparent;
+    }
+
+    .h2 {
+      width: fit-content;
+      font-size: 4.5rem;
+      font-family: "Roboto";
+      background-image: linear-gradient(
+        225deg,
+        #020c2482,
+        #310909d5,
+        #675b24b5
+      );
+
+      background-clip: text;
+      color: transparent;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem;
+      a {
+        all: unset;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+    width: 100%;
+    min-width: 16rem;
+    min-height: fit-content;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
+    background-color: rgba($color: #e08f8f54, $alpha: 0.1);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Economica";
+    font-weight: 500;
+  }
+}

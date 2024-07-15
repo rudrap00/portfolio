@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica:wght@400;500;600;700&family=Grape+Nuts&family=Oswald:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & h3 {
+    font-size: 1.5rem;
+  }
+
+  & p {
+    font-size: 1rem;
+  }
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  padding: 1rem;
+  background-color: black;
+}
+
+.app-container {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(45deg, #9c77918e, #5e9da98e, #6c8e648e);
+}
