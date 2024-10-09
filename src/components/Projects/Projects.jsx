@@ -1,7 +1,7 @@
 import React from "react";
 import utilitiesReactImg from "../../assets/Currency Converter.png";
 import foodOrderImg from "../../assets/Food Order App.png";
-import jobsBoardImg from "../../assets/Jobs Board.png";
+import optionsDataImg from "../../assets/Options Data.png";
 import paymentsImg from "../../assets/Payments.png";
 import ProjectDisplay from "./ProjectDisplay";
 import styles from "./Projects.module.scss";
@@ -9,12 +9,12 @@ import styles from "./Projects.module.scss";
 const Projects = () => {
   const projectList = [
     {
-      title: "Jobs Board",
+      title: "Options Premium Data",
       description:
-        "Web application where one can look for job openings which has features like infinite scroll and filters to search for preferred jobs.",
-      codeLink: "https://github.com/rudrap00/jobs-board/",
-      deployLink: "https://rudrap00.github.io/jobs-board/",
-      screenshot: jobsBoardImg,
+        "Web application where one can look for options premium which has features like slider and filters to search for In/Out of money options.",
+      codeLink: "https://github.com/rudrap00/react-table/",
+      deployLink: "https://rudrap00.github.io/react-table/",
+      screenshot: optionsDataImg,
     },
     {
       title: "Utilities Web App",

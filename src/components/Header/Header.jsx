@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFileDownload } from "react-icons/fa";
 import {
   FaEnvelope,
   FaLinkedin,
@@ -38,6 +39,14 @@ const Header = () => {
           </a>
           <a href="https://wa.me/919205750356" target="_blank" rel="noreferrer">
             <FaWhatsapp size={32} />
+          </a>
+          <a
+            href="https://raw.githubusercontent.com/rudrap00/portfolio/refs/heads/main/src/resume/Rudra_Resume.pdf"
+            title="My Resume"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFileDownload size={28} />
           </a>
         </div>
       </div>
