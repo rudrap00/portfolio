@@ -41,7 +41,7 @@ const Header = () => {
             <FaWhatsapp size={32} />
           </a>
           <a
-            href="https://raw.githubusercontent.com/rudrap00/portfolio/refs/heads/main/src/resume/Rudra_Resume.pdf"
+            href="https://github.com/rudrap00/portfolio/blob/main/src/resume/Rudra_Resume.pdf"
             title="My Resume"
             target="_blank"
             rel="noreferrer"
