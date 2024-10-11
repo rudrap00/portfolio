@@ -6,6 +6,7 @@ import {
   FaSquareGithub,
   FaWhatsapp,
 } from "react-icons/fa6";
+import Resume from "../../resume/Rudra_Resume.pdf";
 import styles from "./Header.module.scss";
 
 const Header = () => {
@@ -40,12 +41,7 @@ const Header = () => {
           <a href="https://wa.me/919205750356" target="_blank" rel="noreferrer">
             <FaWhatsapp size={32} />
           </a>
-          <a
-            href="https://github.com/rudrap00/portfolio/blob/main/src/resume/Rudra_Resume.pdf"
-            title="My Resume"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={Resume} title="My Resume" target="_blank" rel="noreferrer">
             <FaFileDownload size={28} />
           </a>
         </div>
