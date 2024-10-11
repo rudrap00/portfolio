@@ -14,6 +14,7 @@
       height: 100%;
       object-fit: fill;
       border-radius: 0.5rem;
+      cursor: pointer;
     }
   }
 
@@ -49,6 +50,24 @@
         transition: all ease 0.6s, box-shadow 0ms;
       }
     }
+  }
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: #000000bd;
+  cursor: pointer;
+
+  img {
+    width: 75%;
+    object-fit: contain;
+    cursor: default;
   }
 }
 
