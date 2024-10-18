@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.21b338a7.css",
-    "main.js": "/portfolio/static/js/main.dc36f2bf.js",
+    "main.js": "/portfolio/static/js/main.9b4640cb.js",
     "static/media/Currency Converter.png": "/portfolio/static/media/Currency Converter.2fc929330bd13570e96c.png",
     "static/media/Food Order App.png": "/portfolio/static/media/Food Order App.7376b29b9e23b6f2af12.png",
     "static/media/Options Data.png": "/portfolio/static/media/Options Data.b12c5d1e78b5febf0a16.png",
     "static/media/Payments.png": "/portfolio/static/media/Payments.7f04e64f9469fe3cbc85.png",
-    "static/media/Rudra_Resume.pdf": "/portfolio/static/media/Rudra_Resume.0e7ec2160b2bb9712ec4.pdf",
+    "static/media/Rudra_Resume.pdf": "/portfolio/static/media/Rudra_Resume.d911f3b62f01df086e3b.pdf",
     "index.html": "/portfolio/index.html",
     "main.21b338a7.css.map": "/portfolio/static/css/main.21b338a7.css.map",
-    "main.dc36f2bf.js.map": "/portfolio/static/js/main.dc36f2bf.js.map"
+    "main.9b4640cb.js.map": "/portfolio/static/js/main.9b4640cb.js.map"
   },
   "entrypoints": [
     "static/css/main.21b338a7.css",
-    "static/js/main.dc36f2bf.js"
+    "static/js/main.9b4640cb.js"
   ]
 }
